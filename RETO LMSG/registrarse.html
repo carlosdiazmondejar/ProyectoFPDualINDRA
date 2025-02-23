@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroEmision.es/Alta_usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>       
+		<img src="recursos/Logo_Empresa.jpg" alt="Logo_Evento">
+        <nav>
+            <ul>
+				<li><a href="Index_Eventos.html">Página principal</a></li>
+                <li><a href="lista_eventos.html">Listado de Eventos</a></li>
+                <li><a href="registrarse.html">Alta de usuarios</a></li>
+                <li><a href="organizadores.html">Organizadores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="registro">
+            <h2>Crear una cuenta de usuario</h2>
+            <form action="#" method="POST">
+			
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+				<p>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirmar contraseña:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+				</p>
+				
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
